@@ -43,18 +43,22 @@ li a:hover :active{
   background-color: #111111;
 }
 
-img.border{
-  border: 50px solid black;
-}
 img.right{
+  border: 5px solid black;
   float: right;
-  padding-right: 100px;
-  padding-top: 200px;
+  margin-left:  200px;
+  margin-right: 100px;
+  margin-bottom: 200px;
+  margin-top: 100px;
 }
+
 img.left{
+  border: 5px solid black;
   float: left;
-  padding-left: 100px;
-  padding-top: 200px;
+  margin-left:  100px;
+  margin-right: 200px;
+  margin-bottom: 200px;
+  margin-top: 100px;
 }
 
 
@@ -64,6 +68,8 @@ div.left{
     font-size: 20px;
     padding-left: 100px;
     padding-right: 750px;
+    margin-bottom: 200px;
+    margin-top: 100px;
 }
 div.right{
     text-align: left;
@@ -71,4 +77,6 @@ div.right{
     font-size: 20px;
     padding-left: 750px;
     padding-right: 100px;
+    margin-bottom: 200px;
+    margin-top: 100px;
 }
