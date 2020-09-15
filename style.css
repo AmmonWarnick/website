@@ -4,9 +4,11 @@ body {
     border: 2px solid-black;
 }
 
-img.logo{
+div.logo{
     float: none;
-    padding-top:0;
+    width: 1450px;
+    height: 200px;
+    background-image:url("/photos/longblacklogo.jpg");
 }
 
 ul {
@@ -41,7 +43,7 @@ li a:hover :active{
   background-color: #111111;
 }
 
-img{
+img.border{
   border: 50px solid black;
 }
 img.right{
@@ -53,10 +55,6 @@ img.left{
   float: left;
   padding-left: 100px;
   padding-top: 200px;
-}
-
-h1.home{
-  text-indent: 0px;
 }
 
 
