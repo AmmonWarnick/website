@@ -17,6 +17,9 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 10;
 }
 
 button{
@@ -39,9 +42,11 @@ li {
   float: right;
 }
 
-li a:hover :active{
-  background-color: #111111;
+li a:hover{
+  background-color: #c2c2c2;
 }
+
+
 
 img.right{
   border: 5px solid black;
