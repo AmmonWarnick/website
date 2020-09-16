@@ -13,13 +13,10 @@ div.logo{
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #333333;
-  position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 10;
+  top: 0;
 }
 
 button{
@@ -45,7 +42,9 @@ li {
 li a:hover{
   background-color: #c2c2c2;
 }
-
+.active{
+  background: #c2c2c2;
+}
 
 
 img.right{
