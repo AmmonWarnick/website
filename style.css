@@ -38,10 +38,11 @@ li a {
   text-align: center;
   text-decoration: none;
 }
-
+/* Menu hover state */
 li a:hover {
   border-bottom: 2px solid #59785B;
 }
+
 #blockText{
   text-align: center;
   padding-top: 40px;
@@ -52,12 +53,18 @@ li a:hover {
   font-size: 20px;
 }
 
+#sticky_navigation .navbar-toggle
+{
+ z-index: 10000;
+}
+
 /* SPACING */
 .spacing{
   height: 200px;
   width: 100%;
 }
 
+/* page container */
 .page{
   background-color: #e1ebe4;
   margin-left: 50px;
@@ -90,15 +97,6 @@ li a:hover {
   height: 400px;
 }
 
-/* BFAST/LUNCH/DINNER */
-.choice1{
-  width: 25%;
-  display: block;
-  float: left;
-  padding-left: 80px;
-  padding-top: 40px;
-  height: 400px;
-}
 .choice1:hover{
   opacity: .5;
 }
@@ -116,10 +114,21 @@ li a:hover {
   justify-content: center;
 }
 
+/* BFAST/LUNCH/DINNER */
+.choice1{
+  width: 33%;
+  display: block;
+  float: left;
+  padding-left: 40px;
+  padding-top: 40px;
+  height: 400px;
+}
+
 /* SCROLLING EFFECT */
 .parallax {
   background-image: url("/photos/plate.jpg");
   min-height: 800px;
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -141,6 +150,14 @@ li a:hover {
   body {
     background-color: #F09A9D; /* Red for debugging */
   }
+
+  .parallax{
+    min-height: 400px;
+  }
+  #blockPar{
+    font-size: 10px;
+    margin: 15px;
+  }
 }
 
 /* Tablet Styles */
@@ -151,7 +168,16 @@ li a:hover {
   .experience {
     width: 50%;
   }
+
+  .parallax{
+    min-height: 400px;
+  }
+  #blockPar{
+    font-size: 15px;
+    margin: 10px;
+  }
 }
+
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
