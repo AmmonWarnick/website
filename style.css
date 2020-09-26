@@ -1,8 +1,9 @@
 *{
   font-family: 'Open Sans Condensed', sans-serif;
 }
-.navBig:hover{
-  font-size: 30px;
+
+li.active a{
+  border-bottom: solid 2px #59785B;
 }
 
 .centered {
@@ -13,14 +14,15 @@
   font-size: 40px;
 }
 
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #2A382A;
   text-align: center;
 }
+
 
 li {
   float: left;
@@ -28,15 +30,14 @@ li {
 
 li a {
   display: block;
-  font-size: 25px;
+  font-size: 40px;
   color: white;
   text-align: center;
-  padding: 30px 34px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #59785B;
+  border-bottom: 2px solid #59785B;
 }
 #blockText{
   text-align: center;
@@ -107,6 +108,7 @@ li a:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 
 .parallax {
   background-image: url("/photos/plate.jpg");
