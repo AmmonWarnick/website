@@ -84,7 +84,6 @@ li a:hover {
 }
 
 .menuImg{
-  justify-content: center;
 }
 
 /* CLASSES */
@@ -138,6 +137,16 @@ li a:hover {
   height: 400px;
 }
 
+/* menu layout */
+.menuChoice{
+  width: 25%;
+  display: block;
+  float: left;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+
 /* SCROLLING EFFECT */
 .parallax {
   background-image: url("/photos/plate.jpg");
@@ -172,6 +181,11 @@ li a:hover {
     font-size: 10px;
     margin: 15px;
   }
+  .menuChoice{
+    width: 50%;
+    margin-top: 0px;
+    font-size: 10px;
+  }
 }
 
 /* Tablet Styles */
@@ -190,6 +204,15 @@ li a:hover {
     font-size: 15px;
     margin: 10px;
   }
+  .menuChoice{
+    width: 50%;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+  h3{
+    font-size: 20px;
+  }
+
 }
 
 
