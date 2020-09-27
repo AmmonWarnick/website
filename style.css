@@ -2,6 +2,7 @@
 /* ALL LAYOUTS */
 *{
   font-family: 'Open Sans Condensed', sans-serif;
+  box-sizing: border-box;
 }
 
 li.active a{
@@ -73,19 +74,6 @@ li a:hover {
   height: auto;
 }
 
-/* menu container */
-.menu{
-  background-color: #e1ebe4;
-  margin-left: 50px;
-  margin-right: 50px;
-  flex-wrap: wrap;
-  height: auto;
-  width: 50%;
-}
-
-.menuImg{
-}
-
 /* CLASSES */
 .firstContent{
   display: block;
@@ -137,25 +125,86 @@ li a:hover {
   height: 400px;
 }
 
-/* menu layout */
-.menuChoice{
-  width: 25%;
-  display: block;
-  float: left;
-  margin-top: 100px;
-  margin-bottom: 30px;
-}
-
-
 /* SCROLLING EFFECT */
 .parallax {
-  background-image: url("/photos/plate.jpg");
+  background-image: url("photos/plate.jpg");
   min-height: 800px;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+/* CATERING */
+.cater_menu {
+  box-sizing: border-box;
+  padding-top: 800px;
+}
+
+.scroll {
+  background-image: url("photos/5plates.jpg");
+  min-height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* CONTACT FORM */
+.contact_form {
+  color: #ffff;
+  background-color: #2A382A;
+  opacity: 0.8;
+  font-weight: bold;
+  padding: 40px;
+  text-align: left;
+  width: 800;
+  box-sizing: border-box;
+  margin: 20px auto;
+  resize: vertical;
+}
+input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 20px auto;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  align: center;
+  resize: vertical;
+  font-size: 30px;
+  font-weight: bold;
+}
+label {
+  font-size: 30px;
+  font-weight: bold;
+}
+.form_title {
+  text-align: center;
+}
+
+/* BUTTON */
+.button {
+  color: #ffff;
+  background-color: #5D6063;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+
+  width: 200px;
+  box-sizing: border-box;
+  margin: 20px auto; /* Vertical  Horizontal */
+}
+.label {
+  color: #ffff;
+  text-align: center;
+  font-size: 30px;
 }
 
 /* FOOTER */
@@ -181,11 +230,6 @@ li a:hover {
     font-size: 10px;
     margin: 15px;
   }
-  .menuChoice{
-    width: 50%;
-    margin-top: 0px;
-    font-size: 10px;
-  }
 }
 
 /* Tablet Styles */
@@ -204,15 +248,6 @@ li a:hover {
     font-size: 15px;
     margin: 10px;
   }
-  .menuChoice{
-    width: 50%;
-    margin-top: 0px;
-    font-size: 10px;
-  }
-  h3{
-    font-size: 20px;
-  }
-
 }
 
 
