@@ -12,82 +12,74 @@
     </style> -->
   </head>
 
-  <body background = "5plates.jpg">
-<!-- BACKGROUND PIC -->
-    <div class="background_pic">
+  <body>
+<!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #59785B">
+      <a class="navbar-brand" href="#" src="photos/food_icon.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #59785B">
-        <a class="navbar-brand" href="#" src="photos/food_icon.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link navBig" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link navBig" href="/">Home <span class="sr-only">(current)</span></a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/menus.html">Menus</a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="/menus.html">Menus</a>
-            </li>
-
-            <li class="nav-item active">
-              <a class="nav-link" href="/catering.html">Catering</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/aboutus.html">About Us</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: #2A382A;">Search</button>
-          </form>
-        </div>
-      </nav>
-
+          <li class="nav-item active">
+            <a class="nav-link" href="/catering.html">Catering</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/aboutus.html">About Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: #2A382A;">Search</button>
+        </form>
+      </div>
+    </nav>
 
 
 <!-- TITLE -->
-      <div class="centered">
-        <h1 style="font-size: 70px; color: white;" >Catering</h1>
-      </div>
-
-      <div class="scroll">
-
-<!-- CATER MENU -->
-        <div class="cater_menu">
-          <div class="contact_form">
-            <form class="form">
-              <h2 class="form_title"><center>Plan Your Event</center></h2>
-              <label for="name">Name:</label><br>
-              <input type="text" id="name" name="name"><br><br>
-              <label for="email">Email:</label><br>
-              <input type="text" id="email" name="name"><br><br>
-              <label for="phoneNumber">Phone Number:</label><br>
-              <input type="text" id="phoneNumber" name="name"><br><br>
-              <label for="date">Date:</label><br>
-              <input type="text" id="date" name="name"><br><br>
-              <label for="numPeople">Number of People:</label><br>
-              <input type="text" id="numPeople" name="name"><br><br>
-
-              <input type="submit" value="Submit"><br>
-            </form>
-          </div>
-        </div>
-
-      </div>
-
-      <h1 id="blockText" style="height: 200px; font-size: 45px;">This Is What We Are Made Of
-        <hr style="margin: 10px;">
-      </h1>
-
+    <div class="centered">
+      <h1 style="font-size: 70px; color: white;" >Catering</h1>
     </div>
 
 
-    <div class="page">
+<!-- CATER MENU -->
+    <div class="cater_menu">
+      <div class="contact_form">
+        <form class="form">
+          <h2 class="form_title"><center>Plan Your Event</center></h2>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="email">Email:</label><br>
+          <input type="text" id="email" name="name"><br><br>
+          <label for="phoneNumber">Phone Number:</label><br>
+          <input type="text" id="phoneNumber" name="name"><br><br>
+          <label for="date">Date:</label><br>
+          <input type="text" id="date" name="name"><br><br>
+          <label for="numPeople">Number of People:</label><br>
+          <input type="text" id="numPeople" name="name"><br><br>
 
+          <input type="submit" value="Submit"><br>
+        </form>
+      </div>
+    </div>
+
+
+    <h1 id="blockText" style="height: 200px; font-size: 45px;">This Is What We Are Made Of
+      <hr style="margin: 10px;">
+    </h1>
+
+
+    <div class="page">
       <div class="firstContent">
         <img src="photos/vegtables.jpg" alt="potatoes." width="100%" height="100%">
       </div>
@@ -115,7 +107,6 @@
           anim id est laborum.
         </p>
       </div>
-
       <div class="fourthContent">
         <img src="photos/pasta.jpg" alt="pasta" width="100%" height="100%">
       </div>
