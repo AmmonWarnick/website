@@ -53,11 +53,6 @@ li a:hover {
   font-size: 20px;
 }
 
-#sticky_navigation .navbar-toggle
-{
- z-index: 10000;
-}
-
 /* SPACING */
 .spacing{
   height: 200px;
@@ -209,6 +204,10 @@ li a:hover {
     margin-top: 0px;
     font-size: 10px;
   }
+  h3{
+    font-size: 20px;
+  }
+
 }
 
 
