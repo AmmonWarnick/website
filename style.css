@@ -73,6 +73,20 @@ li a:hover {
   height: auto;
 }
 
+/* menu container */
+.menu{
+  background-color: #e1ebe4;
+  margin-left: 50px;
+  margin-right: 50px;
+  flex-wrap: wrap;
+  height: auto;
+  width: 50%;
+}
+
+.menuImg{
+  justify-content: center;
+}
+
 /* CLASSES */
 .firstContent{
   display: block;
