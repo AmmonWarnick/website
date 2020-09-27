@@ -8,12 +8,11 @@ li.active a{
   border-bottom: solid 2px #59785B;
 }
 
-/* TITLE */
-.centered {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+nav ul li a{
+  display:block;
+  width:100%;
+  float:right;
+  text-align:right;
 }
 
 /* LISTS */
@@ -146,6 +145,16 @@ li a:hover {
 /* SCROLLING EFFECT */
 .parallax {
   background-image: url("photos/plate.jpg");
+  min-height: 800px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxMenu {
+  background-image: url("photos/menu.jpg");
   min-height: 800px;
   width: 100%;
   background-attachment: fixed;
