@@ -52,10 +52,13 @@ li a:hover {
   margin: 40px;
   font-size: 20px;
 }
-
-#sticky_navigation .navbar-toggle
-{
- z-index: 10000;
+/* menu layout */
+.menuChoice{
+  width: 25%;
+  display: block;
+	float: left;
+  margin-top: 100px;
+  margin-bottom: 30px;
 }
 
 /* SPACING */
