@@ -234,6 +234,16 @@ label {
   font-size: 30px;
 }
 
+#dietIcon{
+  width: 50px;
+  height: 50px;
+  float: right;
+}
+
+#menuText{
+
+}
+
 /* FOOTER */
 .footer{
   display: block;
@@ -257,11 +267,28 @@ label {
     font-size: 10px;
     margin: 15px;
   }
+  #dietIcon{
+    width: 25px;
+    height: 25px;
+  }
+  #menuText{
+    font-size: 20px;
+  }
+
+
   .menuChoice{
     width: 50%;
     margin-top: 0px;
     font-size: 10px;
   }
+  .choice1{
+    width: 100%;
+  }
+  .secondContent,
+  .firstContent{
+    min-width: 500px;
+  }
+
 }
 
 /* Tablet Styles */
@@ -283,7 +310,12 @@ label {
   .menuChoice{
     width: 50%;
     margin-top: 0px;
+    margin-bottom: 10px;
     font-size: 10px;
+  }
+  .choice1{
+    min-width: 100px;
+    min-height: 200px;
   }
 }
 
