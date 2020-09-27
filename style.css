@@ -52,13 +52,10 @@ li a:hover {
   margin: 40px;
   font-size: 20px;
 }
-/* menu layout */
-.menuChoice{
-  width: 25%;
-  display: block;
-	float: left;
-  margin-top: 100px;
-  margin-bottom: 30px;
+
+#sticky_navigation .navbar-toggle
+{
+ z-index: 10000;
 }
 
 /* SPACING */
@@ -261,8 +258,7 @@ label {
 
   .parallax,
   .cater_menu,
-  .aboutus,
-  .contact_form{
+  .aboutus{
     min-height: 400px;
   }
   #blockPar{
