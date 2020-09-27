@@ -137,6 +137,12 @@ li a:hover {
   height: 400px;
 }
 
+.menuChoice{
+  width: 25%;
+  display: block;
+  float: left;
+}
+
 /* SCROLLING EFFECT */
 .parallax {
   background-image: url("/photos/plate.jpg");
