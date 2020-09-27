@@ -52,10 +52,13 @@ li a:hover {
   margin: 40px;
   font-size: 20px;
 }
-
-#sticky_navigation .navbar-toggle
-{
- z-index: 10000;
+/* menu layout */
+.menuChoice{
+  width: 25%;
+  display: block;
+	float: left;
+  margin-top: 100px;
+  margin-bottom: 30px;
 }
 
 /* SPACING */
@@ -71,6 +74,16 @@ li a:hover {
   margin-right: 50px;
   flex-wrap: wrap;
   height: auto;
+}
+
+/* menu container */
+.menu{
+  background-color: #e1ebe4;
+  margin-left: 50px;
+  margin-right: 50px;
+  flex-wrap: wrap;
+  height: auto;
+  width: 50%;
 }
 
 /* CLASSES */
@@ -213,6 +226,12 @@ label {
   font-size: 30px;
 }
 
+#dietIcon{
+  width: 50px;
+  height: 50px;
+  float: right;
+}
+
 .aboutus {
   box-sizing: border-box;
   padding-top: 800px;
@@ -256,14 +275,31 @@ label {
     background-color: #F09A9D; /* Red for debugging */
   }
 
-  .parallax,
-  .cater_menu,
-  .aboutus{
+  .parallax{
     min-height: 400px;
   }
   #blockPar{
     font-size: 10px;
     margin: 15px;
+  }
+  #dietIcon{
+    width: 25px;
+    height: 25px;
+  }
+  #menuText{
+    font-size: 20px;
+  }
+  .menuChoice{
+    width: 50%;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+  .choice1{
+    width: 100%;
+  }
+  .secondContent,
+  .firstContent{
+    min-width: 500px;
   }
 }
 
@@ -276,14 +312,22 @@ label {
     width: 50%;
   }
 
-  .parallax,
-  .cater_menu,
-  .aboutus {
+  .parallax{
     min-height: 400px;
   }
   #blockPar{
     font-size: 15px;
     margin: 10px;
+  }
+  .menuChoice{
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  .choice1{
+    min-width: 100px;
+    min-height: 200px;
   }
 }
 
@@ -309,3 +353,4 @@ label {
   .content {
     order: 2;
   }
+}
